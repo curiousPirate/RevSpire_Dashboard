@@ -1,0 +1,39 @@
+.home {
+    min-height: 90vh;
+    background-color: var(--primary-bg);
+    /* color: var(--primary-text); */
+    /* width: 81vw; */
+}
+
+.home table thead tr th{
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--primary-text);
+}
+
+.home table thead tr th,
+.home table tbody tr td {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.home table tbody tr td{
+  color: var(--secondary-text);
+}
+.circle {
+  height: 13px;
+  width: 13px;
+  background-color: var(--button-bg);
+  border-radius: 50% ;
+}
+.home table{
+    border-spacing: 15px;
+}
+.home table tbody tr td{
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-align: left;
+    margin: 30px 40px;
+}
+
