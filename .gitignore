@@ -1,0 +1,14 @@
+# .gitignore
+
+# Ignore backend .env file
+/Backend/.env
+
+# # Ignore node_modules directory
+# /node_modules
+/Backend/node_modules
+/frontend/node_modules
+
+
+# Ignore other build artifacts
+/build
+/dist
