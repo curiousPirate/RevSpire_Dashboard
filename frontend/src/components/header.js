@@ -7,9 +7,7 @@ import dropDownLight from "../assets/images/dropdown-light.png";
 import dropDownDark from "../assets/images/dropdown-dark.png";
 import menuDark from "../assets/images/menu-dark.png";
 import menuLight from "../assets/images/menu-light.png";
-import { contentData } from "../assets/data.js"; // Import the data
-import { useContext } from "react";
-import { globalContext } from "../App";
+
 
 export function Header() {
   const {
@@ -76,7 +74,6 @@ export function Header() {
   };
   const name = findViewerName();
 
-  const path = "Root > Marketing > 2023 > Gated Content";
   return (
     <div className="header-box">
       <div className="header">
